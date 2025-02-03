@@ -40,9 +40,9 @@ def write_proxies_to_file(proxies, filename="proxies.txt"):
 
 if __name__ == "__main__":
 
-    print("Getti proxies....")
+    print(". Getti proxies....")
     proxies = fetch_free_proxies()
     write_proxies_to_file(proxies)
-    print(f"{len(proxies)} proxy")
-    input("\nEnter Dabgra bo daxran...")
+    print(f"  {len(proxies)} proxy")
+    input("\n  Enter Dabgra bo daxran...")
 
